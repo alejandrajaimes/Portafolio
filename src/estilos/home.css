@@ -1,0 +1,115 @@
+body{
+    background: var(--black-color);
+    height: 100%;
+}
+:root {
+    --body-font: 'Poppins', sans-serif;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 1rem;
+    --normal-font-size: 0.93rem;
+    --small-font-size: 0.81rem;
+  }
+.l-main {
+    margin:5% 10%;
+    background-color: var(--black-color);
+  }
+
+  .home {
+      
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: max-content max-content;
+        grid-template-rows: -webkit-max-content -webkit-max-content;
+        grid-template-rows: max-content max-content;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    row-gap: 2.3rem;
+    font-weight: 800;
+  }
+  
+.home__information {
+    margin-top: 2%;
+    margin-left: 10%;
+    padding-left: 15px;
+    border-left: 5px solid var(--white-color);
+    z-index: var(--z-tooltip);
+  }
+  
+  .home__pressent {
+    font-size: var(--h2-font-size);
+    color: var(--white-color);
+  }
+  
+  .home__title {
+    font-size: var(--h1-font-size);
+    color: var(--white-color);
+
+  }
+  
+  .home__skill {
+    font-size: var(--h2-font-size);
+    color: var(--white-color);
+  }
+  
+  .home__button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: .75rem;
+    color: var(--white-color);
+    padding: .625rem 1rem;
+    border-radius: .25rem;
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--black-color)), to(var(--first-color)));
+    background-image: linear-gradient(to right, var(--black-color), var(--first-color));
+  }
+  .home__img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 291px;
+    z-index: var(--z-normal);
+  }
+  
+  .home__social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 100px;
+    display: block;
+    
+  }
+  
+  .home__social-icon {
+    width: 45px;
+    height: 48px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover{
+    color: cornsilk;
+    text-decoration: none;
+  }
+  
+.home__img {
+    width: 350px;
+    height: 300px;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    
+   
+    
+  }
+  .home__img_mia{
+      width: 300px;
+      height: 300px;
+      border-radius:150px;
+      
+  }

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+    --first-color: #4E1116;
+    --black-color: #000;
+    --white-color: #FFF;
+  }
+  
+  /*Fuente y tipografia*/
+  :root {
+    --body-font: 'Poppins', sans-serif;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 1rem;
+    --pequeña-font-size: 30px;
+    --maspequeña-font-size: 15px;
+  }
+  .encabezado{
+    width: 100%;
+    height: 70px ;
+    font-family: var(--body-font);
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-weight: 700;
+    overflow: hidden;
+  }
+  .titulo{
+    padding-left: 50px;
+  }
+  header .logo, .logo1{
+    color: var(--white-color );
+    line-height:80px;
+    float: left;
+    
+  }
+  header .logo{
+  font-size: var(--pequeña-font-size);
+  }
+  
+  header .logo1{
+    font-size: var(--maspequeña-font-size);  
+  }
+  header nav{
+    line-height:80px;
+    float: right;
+    padding-right: 30px;
+  }
+  header nav a{
+    display: inline-block;
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  header nav a:hover{
+    background: var(--first-color);
+    border-radius: 3px;
+
+  }
+  
+
+
+  
+  

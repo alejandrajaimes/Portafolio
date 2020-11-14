@@ -1,0 +1,37 @@
+
+:root{
+    --first-color: #4E1116;
+    --black-color: #000;
+    --white-color: #FFF;
+}
+.contenedor12{
+    
+    height: 1400px;
+    width: 100%;
+    margin-top: 70px;
+   
+}
+.imagenes_portafolio{
+    padding-right: 5px;
+    height: 10px;
+    margin: 15%;
+    background-color: coral;
+}
+
+li{
+    
+    display: inline-block;
+    padding: 15px;
+    margin: 2%;
+}
+
+.card{
+    
+    width: 30rem;
+}
+.card-img-top{
+    
+    width: 200px;
+    height: 250px;
+}
+
